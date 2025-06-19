@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">WorkoutTimerPP</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+
+    <string name="about_title">About WorkoutTimerPP</string>
+    <string name="about_version">WorkoutTimerPP "Plus Plus" v1.0</string>
+    <string name="about_description">
+        A simple (non-UX engineer simple) workout timer designed to guide you through every phase of your training—warm‑up, workout sets, reps, rest intervals, and cool‑down—without ever touching your phone.
+    </string>
+
+    <string-array name="about_features">
+        <item>Customizable routines: Define number of sets, reps, rest‑between‑reps &amp; sets, and per‑set exercise names.</item>
+        <item>Voice guidance: Hear announcements like “Warm‑up,” “Set 1 Push‑ups,” “Last rep,” “Rest 30 s,” etc.</item>
+        <item>Audio cues: Beep at T‑5 s, unique end‑of‑set bell, and end‑of‑workout cheer.</item>
+        <item>Dark/Light themes: Toggle for perfect visibility anywhere.</item>
+        <item>Data‑driven toggles: Enable or disable any announcements.</item>
+    </string-array>
+
+    <string name="about_attribution_label">Attribution for the “cheer” sound:</string>
+    <string name="about_attribution_detail">
+        “Crowd Cheer 2” by BerlinGameScene
+        https://freesound.org/s/267248/
+        License: Creative Commons 0
+        "Public Domain Beep Sound" by qubodup
+        https://freesound.org/s/443026/
+        License: Creative Commons 0
+    </string>
+    <string name="about_contact_label">Contact me:</string>
+    <string name="about_contact_dev">Negmawon: <a href="mailto:negmawon43@gmail.com">negmawon43@gmail.com</a>
+    </string>
+    <string name="warm_up_s">Warm‑up (s)</string>
+    <string name="set_duration_s">Set duration (s)</string>
+    <string name="rest_between_reps_s">Rest between reps (s)</string>
+    <string name="rest_between_sets_s">Rest between sets (s)</string>
+    <string name="number_of_sets">Number of sets</string>
+    <string name="exercise_names">Exercises/sets Names</string>
+    <string name="edit_list">Edit list</string>
+    <string name="number_of_reps">Number of Reps</string>
+    <string name="cool_down_s">Cool‑down (s)</string>
+    <string name="this_name_already_exists">This name already exists</string>
+    <string name="name_is_required">Name is required</string>
+    <string name="name">Name</string>
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+    <string name="edit_timer">Edit Timer</string>
+    <string name="new_timer">New Timer</string>
+    <string name="warm_up">Warm-up</string>
+    <string name="workout">Workout</string>
+    <string name="rest">Rest</string>
+    <string name="cool_down">Cool-down</string>
+    <string name="animated_progress">animated-progress</string>
+    <string name="workout_complete">Workout Complete!</string>
+    <string name="great_job">Great job!</string>
+    <string name="stop">Stop</string>
+    <string name="resume">Resume</string>
+    <string name="pause">Pause</string>
+    <string name="workout_timers">Workout Timers</string>
+    <string name="add">Add</string>
+    <string name="no_timers_yet_tap_to_add_one">No timers yet.\nTap + to add one!</string>
+    <string name="delete_all_timers">Delete all timers?</string>
+    <string name="this_action_cannot_be_undone">This action cannot be undone.</string>
+    <string name="run">Run</string>
+    <string name="edit">Edit</string>
+    <string name="warm_up_work">%1$s sets x %2$s reps\nwarm‑up %3$s   •   work %4$s</string>
+    <string name="set_rep">Set %1$s/%2$s  •  Rep %3$s/%4$s</string>
+    <string name="untitled_timer">Untitled Timer</string>
+    <string name="decrease">Decrease %1$s</string>
+    <string name="increase">Increase %1$s</string>
+    <string name="enter_set_names">Enter set names</string>
+    <string name="min">min</string>
+    <string name="sec">sec</string>
+</resources>
