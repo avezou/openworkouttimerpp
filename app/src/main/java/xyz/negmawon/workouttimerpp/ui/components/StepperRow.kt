@@ -12,6 +12,7 @@ import androidx.compose.material3.IconButton
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
@@ -70,6 +71,12 @@ fun TimeStepperRow(
         .padding(vertical = 4.dp)) {
         Text(label, style = MaterialTheme.typography.bodyMedium)
 
+        val secRange = if (minutes >= 1) 0..59 else 5..59
+
+        LaunchedEffect(minutes) {
+            if (minutes == 0 && seconds < 5) onSecondsChange(5)
+        }
+
         Row(verticalAlignment = Alignment.CenterVertically) {
             // Minutes Stepper
             Stepper(
@@ -86,7 +93,7 @@ fun TimeStepperRow(
             Stepper(
                 label = stringResource(R.string.sec),
                 value = seconds,
-                range = 5..59,
+                range = secRange,
                 largeRow = false,
                 onChange = onSecondsChange
             )
